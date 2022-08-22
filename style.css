@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rubik&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+h2 {
+  font-size: 40px;
+  color: gray;
+}
+p {
+  font-size: 20px;
+  color: gray;
+}
+section {
+  display: flex;
+}
+.banner-title {
+  margin-top: 90px;
+  padding-left: 50px;
+  width: 50%;
+}
+.banner-title a {
+  padding: 15px 30px;
+  background-image: linear-gradient(tomato, rgba(192, 36, 36, 0.726));
+  font-size: 24px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-img .banner-img1 {
+  width: 70%;
+  float: right;
+}
+.banner-img .banner-img2 {
+  width: 40%;
+  padding-left: 80px;
+}
+.bg-banner {
+  margin: 30px 0px;
+  background-image: url(images/Frame\ 59.jpg);
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+
+.myrecipes {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+.recipe-list {
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+}
+.recipe-title1 {
+  padding: 15px;
+  width: 50%;
+  margin-right: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 15px gray;
+}
+.recipe-title1 img {
+  width: 50%;
+  border-radius: 10px;
+}
+.recipe-title2 {
+  padding: 30px;
+  width: 50%;
+  margin-left: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 15px gray;
+}
+.recipe-title2 img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.subcriber-list{
+    margin: auto ;
+    text-align: center;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 15px;
+  box-shadow: 5px 10px 15px gray;
+}
+.subscribers{
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+footer{
+    margin: 30px 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+    border-radius: 5px;
+    
+}
